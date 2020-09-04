@@ -1,0 +1,980 @@
+<html>
+<head>
+<title>
+    Project
+</title>
+ <link rel="stylesheet" href="css/bootstrap.css">
+		 <script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<style>
+body
+{
+    background-color: burlywood;
+}
+#a1
+{
+    color: darkred;
+    font-style:oblique;
+    font-size: 85px;
+    margin-top: 30px;
+}
+#a2
+{
+    color:darkblue;
+    font-style: oblique;
+    font-size: 24px;
+    margin-top: 50px;
+}
+h1
+{
+    font-size: 20px;
+    color: red;
+}
+p1
+{
+    font-size: 20px;
+    color: black;
+}
+p2
+{
+    font-size: 15px;
+    color: #3e8e41;
+}
+table,th,td
+{
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.menu
+{
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a
+{
+  background-color:rgb(122, 62, 122);
+  padding:8px;
+  margin-top:2px;
+  display:block;
+  width:70%;
+  color:black;
+}
+.main
+{
+    display:block;  
+  float:left;
+  max-width:350px;   
+  width:45%;
+}
+#alter
+{
+  display:block;  
+  float:left;
+  max-width:600px;   
+  width:45%;
+}
+.right
+{
+  background-color:rgb(52, 236, 236);
+  float:right;
+  width:10%;
+  padding:10px;
+  color: #3e8e41;
+}
+.l
+{
+  float:left;
+  width:33%;
+  text-align:center;
+}
+.m
+{
+  display:block;  
+  float:left;
+  max-width:350px;   
+  width:33%;
+  color: red;
+}
+.r
+{
+  float:right;
+  width:33%;
+  padding:10px;
+  color: #3e8e41;
+}
+.conclu
+{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+.conclu2
+{
+  display:block;  
+  float:left; 
+  width:50%;
+}
+.x
+{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+.y
+{
+  display:block;  
+  float:left;
+  max-width:350px;   
+  width:60%;
+}
+.music
+{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+.video
+{
+  display:block;  
+  float:left;
+  max-width:350px;   
+  width:60%;
+}
+#p4
+{
+  color:whitesmoke;
+  font-size: 20px;
+}
+.cast1
+{
+  background-color:black;
+  color:blue;
+  float:left;
+  width:33%;
+}
+.cast2
+{
+  background-color:black;
+  color:blue;
+  float:left;   
+  width:33%;
+}
+.cast3
+{
+  background-color:black;
+  color:blue;
+  float:left;
+  width:33%;
+}
+.dropbtn
+{
+background-color: green;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+.dropdown
+{
+position: relative;
+display: inline-block;
+}
+.dropdown-content 
+{
+display: none;
+position: absolute;
+background-color: whitesmoke;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a
+{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover
+{
+background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content
+{
+display: block;
+}
+.dropdown:hover .dropbtn
+{
+background-color: #3e8e41;
+}
+#p12,#p13,#p14,#p15,#p16,#h12,#h13,#h14,#h15,#h16,#a12,#a13,#a14,#a15,#a16
+{
+    display:none;
+}
+</style>
+</head>
+<body>
+    <a id="a1">
+        <img src="giphy.gif" height="90px" width="130px">
+        <b>Marvel Movies</b>
+    </a>
+    <marquee behavior = "scroll" direction = "right" scrollamount = "20">
+        <img src = "captain_marvel.jpg">
+        <img src = "thanos.jpg">
+        <img src = "visionandwanda.jpg">
+        <img src = "antman.jpg">
+        <img src = "blackpanther.jpg">
+        <img src = "captain_america_1.jpg">
+        <img src = "rommanoff_1.jpg">
+        <img src = "ironman_1.jpg">
+        <img src = "hulk_1.jpg">
+        <img src = "thor_1.jpg">
+        <img src = "stanlee.jpg">
+    </marquee>
+    <script>
+    function myFunction()
+    {
+        document.getElementById("a1").style.fontSize="85px"; 
+        document.getElementById("a1").style.color="red";
+    }
+    </script>
+    <hr>
+    <center>
+    <button type="button" onclick="myFunction()">Click Here</button>
+    </center>
+    <hr>
+    <p>
+    <i>
+        The Marvel Cinematic Universe (MCU) films are an American series of superhero films based on the
+        characters that appear in the publications by Marvel Comics. The MCU is the shared universe in which
+        all of the films are set. The films have been in production since 2007, and in that time Marvel Studios
+        has produced and released 20 films, with 11 more in various stages of production. It is the highest 
+        grossing film franchise of all time, having grossed over $17.5 billion at the global box office.This mega
+        production house had introduced superhero's like Iron Man, Hulk, Thor, Captain America, Romanoff,
+        Ant-Man, Doctor Strange, and many more intersecting characters.
+    <br>
+    <br>
+<div style="background-color:#3e8e41;
+            padding:15px;
+            text-align:center;">
+<h1><i>SuperHeroes</i></h1>
+</div>
+<div style="overflow:auto">
+    <div class="menu">
+      <a href="#">Iron Man</a>
+      <a href="#">Hulk</a>
+      <a href="#">Thor</a>
+      <a href="#">Captain America</a>
+      <a href="#">Rommanoff</a>
+    </div>
+    <div class="main">
+        <div class="image" style="max-height:50%">
+                    <img id="mySlides" src="ironman_1.jpg" style="max-height:28%">
+                  <script>
+                        var index = 0;
+                        
+                        function changepic() {
+                             if(index==0)
+                             {
+                                document.getElementById("mySlides").src="ironman_1.jpg";
+                                document.getElementById("p12").style="display:block";
+                                document.getElementById("p13").style="display:none";
+                                document.getElementById("p14").style="display:none";
+                                document.getElementById("p15").style="display:none";
+                                document.getElementById("p16").style="display:none";
+                                document.getElementById("h12").style="display:block";
+                                document.getElementById("h13").style="display:none";
+                                document.getElementById("h14").style="display:none";
+                                document.getElementById("h15").style="display:none";
+                                document.getElementById("h16").style="display:none";
+                                document.getElementById("a12").style="display:block";
+                                document.getElementById("a13").style="display:none";
+                                document.getElementById("a14").style="display:none";
+                                document.getElementById("a15").style="display:none";
+                                document.getElementById("a16").style="display:none";
+                            }
+
+                             if(index==1)
+                             {
+                                document.getElementById("mySlides").src="hulk_1.jpg";
+                                document.getElementById("p12").style="display:none";
+                                document.getElementById("p13").style="display:block";
+                                document.getElementById("p14").style="display:none";
+                                document.getElementById("p15").style="display:none";
+                                document.getElementById("p16").style="display:none";
+                                document.getElementById("h12").style="display:none";
+                                document.getElementById("h13").style="display:block";
+                                document.getElementById("h14").style="display:none";
+                                document.getElementById("h15").style="display:none";
+                                document.getElementById("h16").style="display:none";
+                                document.getElementById("a12").style="display:none";
+                                document.getElementById("a13").style="display:block";
+                                document.getElementById("a14").style="display:none";
+                                document.getElementById("a15").style="display:none";
+                                document.getElementById("a16").style="display:none";
+                            }
+                             if(index==2)
+                             {
+                                document.getElementById("mySlides").src="thor_1.jpg";
+                                document.getElementById("p12").style="display:none";
+                                document.getElementById("p13").style="display:none";
+                                document.getElementById("p14").style="display:block";
+                                document.getElementById("p15").style="display:none";
+                                document.getElementById("p16").style="display:none";
+                                document.getElementById("h12").style="display:none";
+                                document.getElementById("h13").style="display:none";
+                                document.getElementById("h14").style="display:block";
+                                document.getElementById("h15").style="display:none";
+                                document.getElementById("h16").style="display:none";
+                                document.getElementById("a12").style="display:none";
+                                document.getElementById("a13").style="display:none";
+                                document.getElementById("a14").style="display:block";
+                                document.getElementById("a15").style="display:none";
+                                document.getElementById("a16").style="display:none";
+                             }
+                             if(index==3)
+                             {
+                                document.getElementById("mySlides").src="captain_america_1.jpg";
+                                document.getElementById("p12").style="display:none";
+                                document.getElementById("p13").style="display:none";
+                                document.getElementById("p14").style="display:none";
+                                document.getElementById("p15").style="display:block";
+                                document.getElementById("p16").style="display:none";
+                                document.getElementById("h12").style="display:none";
+                                document.getElementById("h13").style="display:none";
+                                document.getElementById("h14").style="display:none";
+                                document.getElementById("h15").style="display:block";
+                                document.getElementById("h16").style="display:none";
+                                document.getElementById("a12").style="display:none";
+                                document.getElementById("a13").style="display:none";
+                                document.getElementById("a14").style="display:none";
+                                document.getElementById("a15").style="display:block";
+                                document.getElementById("a16").style="display:none";
+                             }
+                             if(index==4)
+                             {
+                                document.getElementById("mySlides").src="rommanoff_1.jpg";
+                                document.getElementById("p12").style="display:none";
+                                document.getElementById("p13").style="display:none";
+                                document.getElementById("p14").style="display:none";
+                                document.getElementById("p15").style="display:none";
+                                document.getElementById("p16").style="display:block";
+                                document.getElementById("h12").style="display:none";
+                                document.getElementById("h13").style="display:none";
+                                document.getElementById("h14").style="display:none";
+                                document.getElementById("h15").style="display:none";
+                                document.getElementById("h16").style="display:block";
+                                document.getElementById("a12").style="display:none";
+                                document.getElementById("a13").style="display:none";
+                                document.getElementById("a14").style="display:none";
+                                document.getElementById("a15").style="display:none";
+                                document.getElementById("a16").style="display:block";
+                             index=-1;
+                             }
+                             index++;
+                        }
+                        function change0 () {
+                            var simple;
+                            simple = setInterval(changepic,3000);
+                        }
+                        change0();
+                        </script>
+        </div>
+    </div>
+        <div id = "alter">
+    <h2 id="h12" >Iron Man</h2>
+    <p id="p12" >
+    A man who is named Tony Stark was kidnapped by terriosts because he is a nuclear weapon scientist.
+    But to ecsape from there he makes a shut which is of iron and later the ecsape he modifies a lot
+    and makes a perfect shut for all conditions and with all facitities also he was added into the 
+    team Avengers and he appears in most of the series.
+    </p>
+    
+    <h2 id="h13" >Hulk</h2>
+    <p id="p13">
+    A person named Banner was effected with gama rays by which, whenever he gets angry he transforms
+    into a huge green colored powerful man known as Hulk and that man is most dangerous even to normal
+    people so he wanted to cure that but he failed ever time and remains like that for ever which made
+    him to enter into Avengers team.
+    </p>
+    <h2 id="h14" >Thor</h2>
+    <p id="p14">
+    
+    Thor is the prince of a planet named Asgard. He is the god of thunder.He has a special weapon
+    known as Hammer. Which can only be lifted by Thor and he is one of the most powerful avengers.Thor
+    has a brother named Loki who creates problems and helps sometimes and he is known as god of 
+    mischief.By a reason he comes to earth and helps the SHIELD.He is the most strongest Avenger no one
+    can beat him.
+    </p>
+    <h2 id="h15" >Captain America</h2>
+    <p id="p15">
+    
+    Captain America is known as the first avenger because he was introduced first by SHIELD in 1914's.
+    He was a lean, short, and courageous person who wanted to service his nation so in a process he was
+    transformed into a well looking, smart, handsome man and also powerful one.Later many will happen
+    and he slept for 100 years and was in this era and helped the remaining Avengers.
+    </p>
+    <h2 id="h16" >Rommanoff</h2>
+    <p id="p16">
+    
+    Rommanoff also known as Natasha, Black Widow. She is a member of Avengers team that means she is 
+    the second avenger of the SHIELD.She was introduced in a iron man series as a normal lady but when
+    a problem came she proved herself. She is a trained Avenger.
+    </p>
+    </div>
+    <div class="right">
+        <h2>About</h2>
+        <div class="image" style="max-height:28%" "max-width:25%">
+            <p id="a12"><i>This character is played by Robert Downey Jr.</i></p>
+            <p id="a13"><i>This character is played by Mark Ruffalo</i></p>
+            <p id="a14"><i>This character is played by Chris Hemsworth</i></p>
+            <p id="a15"><i>This character is played by Chris Evans</i></p>
+            <p id="a16"><i>This character is played by Scarlett Johansson</i></p>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+<a id = "a2">
+    <img src = "slow_slow.gif" width = "60px" height = "50px">
+    <i>
+        Marvel Movies is all about superheros who's intension is to save world from different enemies
+        every marvel superhero is from different locations some are from different planets. S.H.I.E.L.D is
+        which means Superme Headquarters International Espisonage and Law-Enforcement Division.
+    </i>
+    <br>
+    <img src = "slow_slow.gif" width = "60px" height = "50px">
+    <i>
+        Hahaha yes it is a difficult one to understand so shortly known as SHIELD by the word we can get 
+        that it means aprotection that means a security agency company who's work is to protect the world.
+    </i>
+    <br>
+    <img src = "slow_slow.gif" width = "60px" height = "50px">
+    <i>
+        This company requicts superheros in differnt ways in that process Captain America , Black widow ,Client
+        has been taken and by the every intelligence mind Iron Man and powerful Hulk as well as the god of 
+        thunder Thor are also been taken into SHIELD.
+    </i>
+    <br>
+    <img src = "slow_slow.gif" width = "60px" height = "50px">
+    <i>
+        And as the time was moving on many other superheros are been introduced in this series.Everyone has a
+        unique style power abilities and thinking all together are just incredible. Along with them we are also
+        having few other members who are protectors of universe known as Gaudrian's of Galaxy who are also
+        powerful and unevil.
+    </i>
+</a>
+<br>
+<br>
+<center>
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+    <img src = "groot3.gif" height = "60px" width = "80px">
+</center>
+<br>
+<br>
+<br>
+    <p id="p20">
+    <div style="overflow:auto">
+        <div class ="l">
+    <marquee behavior = "scroll" direction = "up" slideamount = "1" height = "400" width ="400">
+        <center>
+            <h3>
+                Stan Lee
+            </h3>
+        </center>
+        Stan Lee was an Amerian comic book writer, editor, publisher and producer.
+        The creater of Marval World which is one of the finnest thing in this world.
+        We can even say that he is a good actor also. He made cameo appearances in all the series of marvels.
+        Unfortunatly we lost a legend on November 12th 2018 at a age of 95 in los angeles, 
+        California, Unitied States.Lee was inducted into the comic book industry's Will Eisner Award Hall
+        of Fame in 1994 and the Jack Kirby Hall of Fame in 1995. The Amazing Life of Stan Lee is a Bibliography 
+        of Stan Lee. Stan Lee was congratulated by President George W. Bush on receiving the National Medal of 
+        Arts in 2008.
+        <img src = "stanlee.jpg" width = "400">
+    </marquee>
+    </div>
+        <div class="m">
+    <marquee behavior = "scroll" direction = "up" slideamount = "1" height = "400" width ="400">
+        <center>
+            <h3>
+                Fun Fact
+            </h3>
+        </center>
+        Chirs Evans turned down the role of Captain America twice before accepting it, because
+        he initially wasn't comfortable taking on that level of commitment and fame.
+        <br>
+        <br>
+        There’s a reference to Black Panther in Iron Man 2, as Wakanda is shown on the map in the background.
+        <br>
+        <br>
+        Both Chris Hemsworth and his brother Liam auditioned for the role of Thor.
+        <br>
+        <br>
+        Jeremy Renner was helped by Olympic archers to prepare for playing Hawkeye.
+        <br>
+        <br>
+        Vin Diesel had his own “Groot script” in GOTG2, which had every "I am Groot" line printed 
+        in English so that he knew what the character was actually saying. Only him and the director 
+        got to see it.
+        <br>
+        <br>
+    Footage was shot for a Captain Marvel cameo in Avengers: Age of Ultron but it ended up being 
+    scrapped because it didn't seem like the right context to introduce her in.
+    <br>
+    <br>
+    In Captain America: Civil War, scenes involving Chris Evans wearing a T-shirt were generally 
+    filmed early on in the process, because he'd lose weight during filming as a result of running 
+    around in the Captain America suit.
+    <br>
+    <br>
+    There wasn’t actually that much audio processing involved when it came to Baby Groot’s 
+    voice for Guardians of the Galaxy 2. Vin Diesel has been impersonating cartoon characters for years 
+    and can get his voice pretty high!
+    <br>
+    <br>
+    And it took two years to execute the dancing scene with Baby Groot at the start of the movie.
+    <br>
+    <br>
+    There’s an Arrested Development cameo in Captain America Civil War! The Bluth family stair car 
+    appears in the airport scene. The Russo brother who directed the film also directed a number of 
+    Arrested Development episodes.
+    <br>
+    <br>
+    The "He's my friend from work!" line in Thor: Ragnarok was suggested by a child from the Make a 
+    Wish foundation who was visiting the set that day.
+    <br>
+    <br>
+    The Wakandan language spoken in Captain America: Civil War is Xhosa, an official language of South Africa.
+    <br>
+    <br>
+    Black Panther wasn’t meant to have a big part in Civil War, and wasn’t even going to don a costume, 
+    but when they thought they might not be able to get Spider-Man in the film, they beefed up his role. 
+    By the time they did get him, they decided to keep Black Panther as a bigger role in the film.
+    <br>
+    <br>
+    Tom Holland hasn't been allowed to read the whole script for Infinity Wars in case he reveals spoilers.
+    <br>
+    <br>
+    </marquee>
+    </div>
+    <div class="r">
+    <marquee behavior = "scroll" direction = "up" slideamount = "3" height = "400" width ="400">
+    <center>
+        <h3>
+            Fun Fact
+        </h3>
+    </center>
+    Joss Wheldon initially wanted there to be a second villain in Avengers Assemble as he wasn't sure
+    Loki was a big enough villain to go aganist that many characters. He changed his stance when he 
+    realised "it's about how he gets in their heads-it's going to be fine".
+    <br>
+    <br>
+    Early drafts of Avengers Assemble featured Wasp instead of Black Widow.
+    <br>
+    <br>
+    Dave Bautista had to spend three to five hours every day in makeup for Guardians of the Galaxy 
+    to transform into Drax, but they got this down to 90 minutes during the sequel.
+    <br>
+    <br>
+    The ship in Guardians of the Galaxy is called Milano after Peter Quill’s childhood crush, Alyssa Milano.
+    <br>
+    <br>
+    In every Phase 2 Marvel movie, there's a scene where someone gets their hand or arm cut off. 
+    It started as an unintentional tribute to Star Wars, and then became intentional.
+    <br>
+    <br>
+    Tom Holland found out he’d be playing Spider-Man through looking on Instagram.
+    <br>
+    <br>
+    An astrophysicist worked on Doctor Strange by advising on science and philosophy.
+    <br>
+    <br>
+    The soundtrack for the first Guardians of the Galaxy is only the second ever soundtrack to sell over 
+    a million copies digitally (the first is Frozen).
+    <br>
+    <br>
+    At first, some of the people overseeing the movie thought putting in '70s music would alienate kids 
+    watching the film.
+    <br>
+    <br>
+    They had to use ramps in Thor: The Dark World for kiss scenes between Natalie Portman and 
+    Chris Hemsworth because of their height difference.
+    <br>
+    <br>
+    Pre-Avengers, Mark Ruffallo was actually considered to play Hulk in The Incredible Hulk.
+    <br>
+    <br>
+    The “catch up” list Captain America carries with him in The Winter Soldier is different 
+    for different countries.
+    <br>
+    <br>
+    Because the characters of Quicksilver and Scarlet Witch belong to the X-Men franchise 
+    as well as the Avengers one, they can’t be referred to as mutants, or have their dad Magneto referenced 
+    in Avengers: Age of Ultron. So in the film they’re both called “enhanced” and the story of their 
+    creation is changed.
+    <br>
+    <br>
+    Before appearing in Doctor Strange, Rachel McAdams was considered years ago for Pepper Potts 
+    in Iron Man, but declined.
+    <br>
+    </marquee>
+    </div>
+    </div>
+    </p20>
+    <hr>
+<div style="overflow:auto">
+    <div class = "y">
+        <aside type="right">
+        <img src="avengers.jpg" height="500px" width="450px" usemap="#avengermap"/>
+        <map name="avengermap">
+        <area shape ="circle" coords ="70,70,210"
+        onmouseover="writeText('Avengers had created a speciality in young children by its mesmarising action')"
+        href="left.htm" target ="_blank" alt="left"/>
+    
+        <area shape ="circle" coords ="300,300,210"
+        onmouseover="writeText('someone may think what is in this and just a time waste process')"
+        href="middle.htm" target ="_blank" alt="middle"/>
+    
+        <area shape ="circle" coords ="210,400,400"
+        onmouseover="writeText('but once u connect it will last as long as it can')"
+        href="right.htm" target ="_blank" alt="right"/>
+        </map>
+        </div>
+    <div class="container-fluid">
+    <center>
+	
+	<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+    <table class="table" >
+        <caption>Marvel Cinematic Universe films</caption>
+        <tr>
+            <th rowspan="5">Produced by</th>
+            <td><a href="https://en.wikipedia.org/wiki/Kevin_Feige" id="1">Kevin Feige</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Avi_Arad" id="2">Avi Arad</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Gale_Anne_Hurd" id="3">Gale Anne Hurd</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Amy_Pascal" id="4">Amy Pascal</a></td>
+        </tr>
+        <tr>
+            <td><a href="#" id="5">Stephen Broussard</a></td>
+        </tr>
+        <tr>
+            <th>Based on</th>
+            <td>Characters published by Marvel Comics</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Production company</th>
+            <td><a href="https://en.m.wikipedia.org/wiki/Marvel_Studios" id="1">Marvel Studios</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.m.wikipedia.org/wiki/Columbia_Pictures" id="2">Columbia Pictures</a></td>
+        </tr>
+        <tr>
+            <th rowspan="4">Distributed by</th>
+            <td><a href="https://en.wikipedia.org/wiki/Paramount_Pictures" id="1">Paramount Pictures</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Universal_Pictures" id="2">Universal Pictures</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Walt_Disney_Pictures" id="3">Walt Disney Studios</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Sony_Pictures" id="4">Sony Pictures</a></td>
+        </tr>
+        <tr>
+            <th>Release date</th>
+            <td>2008-present</td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>United States</td>
+        </tr>
+        <tr>
+            <th>Budget</th>
+            <td>Total(20 films): $3.807-4.049 billions</td>
+        </tr>
+        <tr>
+            <th>Box Office</th>
+            <td>Total(20 films): $17.530 billions</td>
+        </tr>
+    </table>
+	</div>
+	</div>
+    </center>
+    </div>
+    </i>
+    </p>
+</div>
+<div style="overflow:auto">
+    <div class = "music">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <aside>
+    <audio controls>
+        <source src="marvel-intro-music-ringtone.ogg" type="audio/ogg">
+        <source src="marvel-intro-music-ringtone.mp3" type="audio/mpeg">
+        <source src="marvel-intro-music-ringtone.mp3" type="audio/mp3">
+    </audio>
+    </aside>
+    </div>
+    <div class = "video">
+    <center>
+    <video width="700" controls>
+        <source src="Avengers Trailer- Marvel's Avengers- Age of Ultron.mp4" type="video/mp4">
+        <source src="Avengers Trailer- Marvel's Avengers- Age of Ultron.ogg" type="video/ogg">
+        <source src="Avengers Trailer- Marvel's Avengers- Age of Ultron.mpeg" type="video/mpeg">
+    </video>
+    </center>
+    </div>
+</div>
+    <center>
+    <br>
+    <div class="dropdown">
+            <th><button class="dropbtn">Phase one</button></th>
+            <div class="dropdown-content">
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Iron_Man_(2008)"
+                id="iron man">Iron Man</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#The_Incredible_Hulk_(2008)"
+                id="incredible hulk">The Incredible Hulk</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Iron_Man_2_(2010)"
+                id="iron man 2">Iron Man 2</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Thor_(2011)"
+                id="thor">Thor</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Captain_America:_The_First_Avenger_(2011)"
+                id="ca">Captain America: The First Avenger</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Marvel's_The_Avengers_(2012)"
+                id="avengers">The Avengers</a></th>
+        </div>
+        </div>
+        <div class="dropdown">
+            <th><button class="dropbtn">Phase Two</button></th>
+            <div class="dropdown-content">
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Iron_Man_3_(2013)"
+                id="iron man 3">Iron Man 3</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Thor:_The_Dark_World_(2013)"
+                id="thor dw">Thor: The Dark World</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Captain_America:_The_Winter_Soldier_(2014)"
+                id="ca 2">Captain America:The Winter Soldier</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Guardians_of_the_Galaxy_(2014)"
+                id="gog">Guardians of The Galaxy</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Avengers:_Age_of_Ultron_(2015)"
+                id="aou">Avengers: The Age of Ultron</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Ant-Man_(2015)"
+                id="am">Ant-Man</a></th>
+        </div>
+        </div>
+        <div class="dropdown">
+            <th><button class="dropbtn">Phase Three</button></th>
+            <div class="dropdown-content">
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Captain_America:_Civil_War_(2016)"
+                id="cacw">Captain America: Civil War</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Doctor_Strange_(2016)"
+                id="ds">Doctor Strange</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Guardians_of_the_Galaxy_Vol._2_(2017)"
+                id="gogv2">Guardians of Galaxy part 2</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Spider-Man:_Homecoming_(2017)"
+                id="sphc">Spider-Man:Homecoming</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Thor:_Ragnarok_(2017)"
+                id="thr">Thor Ragnarok</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Black_Panther_(2018)"
+                id="bp">Black Panther</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Avengers:_Infinity_War_(2018)"
+                id="aiw">Avengers:Infinity War</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films#Ant-Man_and_the_Wasp_(2018)"
+                id="amatw">Ant-Man and The Wasp</a></th>
+        </div>
+        </div>
+        </center>
+        <br>
+        <br>
+        <div style = "overflow: auto">
+            <div class = "conclu">
+        <a href="file:///C:/Users/saite/Desktop/Sai%20Teja/WED%20Desig/HTML/Project%20details.html">
+            <img src="TEAM.jpg" alt="team"
+            width="400px" height="200px">
+        </a>
+        <br>
+        <br>
+        <a href="file:///C:/Users/saite/Desktop/Sai%20Teja/WED%20Desig/HTML/text%20on%20image%20testing.html">
+            <img src="loading.gif" alt="loading" width="400px" height="200px">
+        </a>
+        <br>
+        <br>
+        </div>
+        <div class = "conclue2">
+        <a href="file:///C:/Users/saite/Desktop/Sai%20Teja/WED%20Desig/WD%20PROJECT/thor%20ka%20link.html">
+            <img src="thor_thor.gif" alt="" width="400px" height="200px">
+        </a>
+        <br>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films">
+            <img src="ha.gif" alt="Tha" width="400px" height="200px">
+        </a>
+        <br>
+        <br>
+        </div>
+        </div>
+        <p id = "p4">
+<div style="overflow:auto">
+    <div class="cast1">
+                <a href="https://en.m.wikipedia.org/wiki/Robert_Downey Jr." id="1">Robert Downey</a> as Iron Man
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Mark_Ruffalo" id="2">Mark Ruffalo</a> as Hulk
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Chris_Hemsworth" id="3">Chris Hemsworth</a> as Thor
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Chris_Evans" id="4">Chris Evans</a> as Captain America
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Scarlett_Johansson" id="5">Scarlett Johansson</a> as Romanoff/Natasha/Black Widow
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Tom_Hiddleston" id="16">Tom Hiddleston</a> as Loki
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Don_Cheadle" id="6">Don Cheadle</a> as War Machine/James Rhodey
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Tom_Holland" id="29">Tom Holland</a> as Spiderman/Peter Parker
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Chris_Pratt" id="33">Chris Pratt</a> as Peter Quill/Star Lord
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Paul_Bettany" id="51">Paul Bettany</a> as Vision
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Elizabeth_Olsen" id="32">Elizabeth Olsen</a> as Scarlet Witch/Wanda
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Anthony_Mickie" id="21">Anthony Mickie</a> as Sam Wilson/Falcon
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Paul_Rudd" id="34">Paul Rudd</a> as Ant man/Scott Lang
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Zoe_Saldana" id="35">Zoe Saldana</a> as Gamora
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Josh_Brolin" id="23">Josh Brolin</a> as Thanos
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Chadwick_Boseman" id="24">Chadwick Boseman</a> as Black Panther
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Benedict_Cumberbatch" id="25">Benedict Cumberbatch</a> as Doctor Strange
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Vin_Diesel" id="26">Vin Diesel</a> as Groot
+    </div>
+    <div class="cast2">
+                <a href="https://en.m.wikipedia.org/wiki/Karen_Gillan" id="27">Karen Gillan</a> as Nebula
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Jeremy_Renner" id="7">Jeremy Renner</a> as Clint Barton
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Sebestian_Stan" id="8">Sebestian Stan</a> as Bucky Barners
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Dave_Bautista" id="10">Dave Bautista</a> as Drax the destroyer
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Samuel_L.Jackson" id="11">Samuel L.Jackson</a> as Nick Fury
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Bradley_Cooper" id="12">Bradley Cooper</a> as Rocket Raccoon
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Benedict_Wong" id="51">Benedict Wong</a> as Wong
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Tadanobu_Asno" id="13">Tadanobu Asno</a> as Hogun
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Idris_Elba" id="14">Idris Elba</a> as Hemidall
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Gwyneth_Paltrow" id="15">Gwyneth Paltrow</a> as Pepper Potts
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Cobie_Smulders" id="17">Cobie Smulders</a> as Agent Maria Hill
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Stellan_Skarsgard" id="18">Stellan Skarsgard</a> as Dr.Erik Selvig
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Hayley_Atwell" id="19">Hayley Atwell</a> as Peggy Carter
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Jon_Favreau" id="20">Jon Favreau</a> as Happy Hogan
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Paul_Bettany" id="22">Paul Bettany</a> as Edwin Jarvis
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Sean_Gunn" id="28">Sean Gunn</a> as Kraglin
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Clark_Gregg" id="9">Clark Gregg</a> as Phil Coulson
+                <br>
+                &copy; copyrights
+    </div>
+    <div class="cast3">
+                <a href="https://en.m.wikipedia.org/wiki/Anthony_Hopkins" id="30">Anthony Hopkins</a> as Odin
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Florence_kasumba" id="31">Florence kasumba</a> as Ayo
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Ray_Stevenson" id="36">Ray Stevenson</a> as Volstagg
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Jaimie_Alexander" id="37">Jaimie Alexander</a> as Sif
+                <br>
+               <a href="https://en.m.wikipedia.org/wiki/Jacob_Batalon" id="38">Jacob Batalon</a> as Ned
+               <br>
+                <a href="https://en.m.wikipedia.org/wiki/Leslie_Bibb" id="39">Leslie Bibb</a> as Christine Everhart
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Bobby_Cannavale" id="40">Bobby Cannavale</a> as Agent Paxton
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Benicio_Del_Toro" id="41">Benicio Del Toro</a> as The Collector
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Michael_Douglas" id="42">Michael Douglas</a> as Hank Pym
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Danai_Guriria" id="43">Danai Guriria</a> as Okoye
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Pom_Klementieff" id="44">Pom Klementieff</a> as Mantis/Sleeping girl
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Evangeline_Lilly" id="45">Evangeline Lilly</a> as The Wasp/Hope Van Dyne
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Michael_Pena" id="46">Michael Pena</a> as Luis
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Natalie_Portman" id="47">Natalie Portman</a> as Jane Foster
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Michael_Rooker" id="48">Michael Rooker</a> as Yondu Udonta
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Rene_Russo" id="49">Rene Russo</a> as Frigga
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Abby_Ryder_Fortson" id="50">Abby Ryder Fortson</a> as Cassie Lang
+                <br>
+                <a href="https://en.m.wikipedia.org/wiki/Peter_Dinklage" id="51">Peter Dinklage</a> as Eitri(Guest Apperance)
+    </div>
+</div>
+</p>
+<div style="background-color:#e5e5e5;
+                text-align:center;
+                padding:10px;
+                margin-top:7px;">&copy; copyrights
+</div>
+<center>
+<button onclick="printfunction()">click here</button>
+</center>
+<script>
+    function printfunction()
+    {
+        window.print();
+    }
+</script>
+</body>
+</html>
